@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>3 numbers</title>
+  </head>
+  <body>
+    <script>
+      var firstNumber;
+      var secondNumber;
+      var thirdNumber;
+
+      firstNumber = window.prompt("Enter number");
+
+      secondNumber = window.prompt("Enter another number");
+
+      thirdNumber = window.prompt("Enter third number");
+
+      if (firstNumber > secondNumber && firstNumber > thirdNumber)
+        window.alert(firstNumber + " is largest");
+      else if (secondNumber > firstNumber && secondNumber > thirdNumber)
+        window.alert(secondNumber + " is largest");
+      else if (thirdNumber > firstNumber && thirdNumber > secondNumber)
+        window.alert(thirdNumber + " is largest");
+    </script>
+  </body>
+</html>
